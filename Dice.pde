@@ -20,7 +20,7 @@ void draw()
 
   textSize(20);
   textAlign(CENTER, CENTER);
-  text("Your total score is " + counter, 100, 132, width, 50);
+  text("Your total score is " + counter, 0, 130, width, 50);
 }
 void mousePressed()
 {
