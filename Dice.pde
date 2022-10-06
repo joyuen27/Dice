@@ -17,9 +17,10 @@ void draw()
       counter = counter + yep.dieNum;
     }
   }
-  System.out.println(counter);
+
   textSize(20);
-  text("Your total score is " + counter, 100, 132);
+  textAlign(CENTER, CENTER);
+  text("Your total score is " + counter, 100, 132, width, 50);
 }
 void mousePressed()
 {
